@@ -77,10 +77,10 @@ var main = function (toDoObjects) {
                 var $inputLabel = $("<p>").text("Description: "),
                     $tagInput = $("<input>").addClass("tags"),
                     $tagLabel = $("<p>").text("Tags: ");
-                $button = $("<button>").text("+");
-                $input = $("<input>").addClass("description");
+                    $button = $("<button>").text("+");
+                    $input = $("<input>").addClass("description");
 
-                $button.on("click", function () {
+                    $button.on("click", function () {
                     var description = $input.val(),
                         tags = $tagInput.val().split(","),
                         // создаем новый элемент списка задач  
